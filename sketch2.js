@@ -132,7 +132,7 @@ function kill() {
       fill("white");
       text("You Win!! =)", 160, 190);
       Lost = 1;
-      lose.position(165, 200);
+      lose.position(1065, 255);
     }
   }
 }
@@ -161,25 +161,25 @@ function reset() {
 
 function directions() {
   upb = createButton("↑");
-  upb.position(1170, 460);
+  upb.position(990, 465);
   upb.size(75, 40);
   upb.style("font-size", "28px");
   upb.mousePressed(up);
 
   downb = createButton("↓");
-  downb.position(1170, 510);
+  downb.position(990, 515);
   downb.size(75, 40);
   downb.style("font-size", "28px");
   downb.mousePressed(down);
 
   leftb = createButton("→");
-  leftb.position(1260, 510);
+  leftb.position(1080, 515);
   leftb.size(75, 40);
   leftb.style("font-size", "28px");
   leftb.mousePressed(right);
 
   rightb = createButton("←");
-  rightb.position(1080, 510);
+  rightb.position(900, 515);
   rightb.size(75, 40);
   rightb.style("font-size", "28px");
   rightb.mousePressed(left);
