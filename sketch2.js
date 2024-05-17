@@ -161,25 +161,25 @@ function reset() {
 
 function directions() {
   upb = createButton("↑");
-  upb.position(170, 410);
+  upb.position(1170, 460);
   upb.size(75, 40);
   upb.style("font-size", "28px");
   upb.mousePressed(up);
 
   downb = createButton("↓");
-  downb.position(170, 460);
+  downb.position(1170, 510);
   downb.size(75, 40);
   downb.style("font-size", "28px");
   downb.mousePressed(down);
 
   leftb = createButton("→");
-  leftb.position(260, 460);
+  leftb.position(1260, 510);
   leftb.size(75, 40);
   leftb.style("font-size", "28px");
   leftb.mousePressed(right);
 
   rightb = createButton("←");
-  rightb.position(80, 460);
+  rightb.position(1080, 510);
   rightb.size(75, 40);
   rightb.style("font-size", "28px");
   rightb.mousePressed(left);
