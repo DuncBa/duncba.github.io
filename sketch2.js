@@ -125,7 +125,7 @@ function kill() {
       fill("white");
       text("You Lose =(", 160, 190);
       Lost = 1;
-      lose.position(165, 200);
+      lose.position(1065, 200);
       lose.mousePressed(reset);
     }
     if (len == 1600) {
